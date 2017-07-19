@@ -1,0 +1,170 @@
+html,body{
+	position:relative;
+	height:100%;
+}
+*{
+	margin:0;
+	padding:0;
+}
+.swiper-container{
+	width:100%;
+	height:100%;
+	margin-left:auto;
+	margin-right:100%;
+}
+/* .swiper-slide{
+	text-align: center;
+    font-size: 18px;
+    background: #fff;
+} */
+.swiper-slide img{
+	display:block;
+}
+/* .swiper-slide .bgbanner{
+	width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    max-height: 1080px;
+    margin:0 auto;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    overflow: hidden;
+} */
+.top_1{
+    position:absolute;
+    left: 0;
+    bottom:0;
+    height:608px;
+    width:582px;
+    
+}
+.top_2{
+    position:absolute;
+    right:0;
+    bottom:0;
+    height:360px;
+    width:800px;   
+}
+.header.hide{
+	 transform: translateY(-100%);
+}
+body .swiper-wrapper .swiper-slide:nth-of-type(2){
+    background-image: url(../images/2.jpg);
+}
+body .swiper-wrapper .swiper-slide:nth-of-type(3) {
+    background-image: url(../images/3.jpg);
+}
+
+body .swiper-wrapper .swiper-slide:nth-of-type(4) {
+    background-image: url(../images/4.jpg);
+}
+
+body .swiper-wrapper .swiper-slide:nth-of-type(5){
+    background-image: url(../images/5.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 头部导航 */
+
+.header{
+	width:100%;
+	height:60px;
+	background:#ccc;
+	position:fixed;
+	top:0px;
+	z-index:99;
+}
+
+.logo{
+	width:200px;
+	height:100%;
+	/* background:green; */
+    margin-left:160px;
+}
+.logo #logos{
+	width:200px;
+	height:50px;
+	margin-top:6px;
+}
+.navmenu{
+	width:800px;
+	height:100%;
+	/* background:red; */
+	margin-left:360px;
+	margin-top:-60px;
+}
+#menu{
+	width:800px;
+	/* border:1px solid red; */
+}
+#menu li{
+	float:left;
+	list-style:none;
+}
+#menu li a{
+	width:130px;
+	height:60px;
+	line-height:60px;
+	margin:10px 30px;
+	font-size:16px;
+	text-decoration:none;
+	color:black;
+	font-family:黑体;
+}
+#headTrait{
+	height:55px;
+	width:50px;
+	position:absolute;
+	top:5px;
+	right:200px;
+}
+.registAndlog{
+	position:absolute;
+	top:20px;
+	right:110px;
+	color:red;
+}
+.registAndlog a{
+	color:red;
+	font-size:16px;
+	text-decoration:none;
+	font-family:黑体;
+}
+
+/* 轮播部分 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

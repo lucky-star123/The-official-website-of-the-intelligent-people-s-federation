@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<!-- css引用 -->
+	<link rel="stylesheet" href="css/website.css">
+	<link rel="stylesheet" href="icon/iconfont.css">
+	<!-- js引用 -->
+  <script src="js/website-log.js" type="text/javascript"></script>
+    
+   
+</head>
+<body >
+                   <!-- 登录页面 -->
+    <img src="images/nav-logo.png" id="nav-logo">
+	               <!-- 登录面板 -->
+	<div id="login">  
+		<div class="user-login"><b>用户登录</b></div>
+          <!-- 用户名输入 -->
+		<div id="usernames">
+		    <div id="head">
+		    	<i class="icon iconfont icon-ren"></i>
+		    </div><!-- 头像图标 -->
+			<input type="text" placeholder="用户名" id="username" clientimode="Static" onblur="checkUser()"><span id="User">用户名必须填写</span><!-- 用户名输入框 -->
+		</div>
+		      <!-- 密码输入 -->
+		    <div id="words">
+		       <div id="locker"><!-- 锁图标 -->
+		       	  <i class="icon iconfont icon-iconfontlock"></i>
+		       </div>
+			   <input type="password" placeholder="密码输入" id="password" onblur="checkPassword()"><span id="psw">密码必须填写</span><!-- 密码输入框 -->
+		    </div>
+               <!-- 验证码输入 -->
+		    <div class="code">
+			   <input type="text" placeholder="验证码" id="write-code" onblur="validate()"><!-- 验证码 -->
+			   <div id="codes" onclick="createCode()"></div><!-- 验证码图标 -->
+			   <div id="ann" onclick="createCode()">看不清？换图片</div><span id="vcode">验证码必须填写</span>
+		    </div>
+		        <!-- 登录按钮 -->
+		    <input type="button" class="log" value="登录" onclick="doLogin()">
+		    <a href="website-register.html" id="us">用户注册</a>
+		    <span id="forget">忘记密码？</span>	
+	</div>
+    
+</body>
+</html>
